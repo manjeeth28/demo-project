@@ -1,0 +1,99 @@
+.navmenu{
+    display: flex;
+    justify-content:space-between;
+    color:burlywood;
+    border: solid;
+    background-color:cadetblue;
+    border-radius: 100px;
+    
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+    padding: 20px;
+    
+    
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 50%;
+    color:aliceblue;
+}
+#name{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.homepage{
+      display: flex;
+      min-height: 600px;
+      align-items: center;
+      justify-content: space-evenly;
+}
+.img{
+    
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    
+}
+.copyright{
+    text-align: center;
+    
+}
+span{
+    color: brown;
+    text-decoration: underline;
+}
+.about{
+    text-align: center;
+}
+.info{
+    width: 60%;
+    margin: 0 auto;
+}
+.skills-wrapper{
+    margin-top: 64px;
+}
+.skills{
+      display: flex;
+      gap: 24px;
+      list-style: none;
+      justify-content: center;
+}
+.skill{
+    background-color: aliceblue;
+    color: black;
+    padding: 18px 16px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    margin-top: 80px;
+    min-height: 500px;
+    gap: 120px;
+    justify-content: center;
+}
+.project{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 120px;
+}
+.projectimage{
+    display: block;
+    width: 800px;
+    height: auto;
+}
+.project-desp{
+    padding: 60px 80px;
+    font-size: 24px;
+    line-height: 36px;
+    color: aliceblue;
+}
+.projectname{
+    font-size: 32px;
+}
